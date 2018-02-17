@@ -118,9 +118,10 @@ public class RentalView extends JFrame {
 				else{
 
 					JOptionPane.showMessageDialog(null, 
-							"The car model does not match the number of passengers!!!", 
+							"The car model does not match the number of passengers!", 
 							"Error", 
 							JOptionPane.ERROR_MESSAGE);
+					System.exit(0);
 				}
 				
 			}
@@ -145,6 +146,4 @@ public class RentalView extends JFrame {
 		
 		this.getContentPane().add(mainPanel);
 	}
-	
-
 }
