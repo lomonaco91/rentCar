@@ -41,6 +41,16 @@ public class Validation {
 		
 		return res;
 	}
+	
+	public boolean isNullDate(Integer dateInit, Integer dateEnd){
+		
+		if(dateInit == null && dateEnd == null)
+			res = true;
+		else
+			res = false;
+		return res;
+		
+	}
 }
 		
 
